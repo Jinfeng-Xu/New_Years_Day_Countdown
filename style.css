@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("2022.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vm;
+    font-family: 'Lobster', cursive, sans-serif;
+    margin: 0;
+}
+
+.big-text{
+    color: rgb(7, 181, 224);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 0.5;
+    margin: 3rem;
+}
+
+h1{
+    background: linear-gradient(to right, #f5f4f4, #dcc80d);
+    font-size: 3rem;
+    margin-top: 3rem;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+span {
+    margin-left: 3%;
+    background: linear-gradient(to left, #5ee50a, #110ade);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer {
+    color: #f5f4f4;
+    margin-top: 10%;
+    font-size: 3em;
+}
+
+.countdel {
+    font-weight: bold;
+    text-align: center;
+}
